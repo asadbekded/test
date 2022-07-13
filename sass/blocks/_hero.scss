@@ -151,7 +151,8 @@
    position: absolute;
    right: calc(50% - 165px);
    bottom: calc(50% - 18px);
-   width: 87px;
+   width: 100%;
+   max-width: 120px;
    padding: 9px 26px;
    border: none;
    background-color: #6a96d8;
@@ -163,3 +164,11 @@
    font-variant: small-caps;
    color: #ffffff;
  }
+
+ .just-time{
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: #DDDDDD;
+   margin-left: 243px;
+}
