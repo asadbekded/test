@@ -363,6 +363,7 @@ body {
           flex-direction: column;
   height: 100%;
   margin: 0px;
+  font-family: 'Arial', sans-serif;
 }
 
 img {
@@ -394,7 +395,222 @@ main {
 }
 
 .container {
+  width: 400px;
   margin: 0px auto;
   padding: 0px 20px;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.zuckerberg {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.choose-box {
+  padding: 20px 24px 20px 24px;
+  background: #fff;
+}
+
+.mark-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #6A96D8;
+  border-radius: 14px 14px 0px 0px;
+  padding: 20px 29px 20px 40px;
+}
+
+.mark-title {
+  position: relative;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  font-variant: small-caps;
+  color: #FFFFFF;
+}
+
+.mark-title::before {
+  position: absolute;
+  width: 6px;
+  top: 8px;
+  left: -18px;
+  height: 6px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  content: "";
+}
+
+.today-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.today-span {
+  display: inline-block;
+  width: 120px;
+  height: 2px;
+  background-color: #DDDDDD;
+}
+
+.today-title {
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.025em;
+  font-variant: small-caps;
+  color: #DDDDDD;
+}
+
+.today-list {
+  margin: 0;
+  padding: 0;
+}
+
+.today-item {
+  width: 275px;
+}
+
+.today-text {
+  position: relative;
+  background-color: #E6EDF6;
+  padding: 9px 17px 9px 15px;
+  margin-bottom: 30px;
+  margin-top: 6px;
+}
+
+.today-text::before {
+  position: absolute;
+  top: 0px;
+  left: -8px;
+  border-top: 10px solid #E6EDF6;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  content: "";
+}
+
+.just-text {
+  position: relative;
+  background-color: #E6EDF6;
+  padding: 9px 17px 9px 15px;
+  margin-bottom: 30px;
+  margin-top: 6px;
+}
+
+.just-text::before {
+  position: absolute;
+  top: 0px;
+  right: -8px;
+  border-top: 10px solid #E6EDF6;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  content: "";
+}
+
+.hero-text::before {
+  position: absolute;
+  top: 0px;
+  right: -8px;
+  border-top: 10px solid #FFC2C1;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  content: "";
+}
+
+.hero-text {
+  background: #FFC2C1;
+  border-radius: 1px;
+  padding-right: 10px;
+  padding: 9px 17px 9px 15px;
+  margin-bottom: 30px;
+  margin-top: 6px;
+}
+
+.today-item:nth-child(even) {
+  margin-left: auto;
+}
+
+.make-text {
+  position: relative;
+}
+
+.fox-time {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #DDDDDD;
+}
+
+.today-form {
+  position: relative;
+}
+
+.today-input {
+  width: 330px;
+  padding: 13px 0 13px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 54px;
+}
+
+.today-input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
+
+.today-input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
+
+.today-input::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
+
+.today-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bdbdbd;
+}
+
+.today-btn {
+  position: absolute;
+  right: calc(50% - 165px);
+  bottom: calc(50% - 18px);
+  width: 87px;
+  padding: 9px 26px;
+  border: none;
+  background-color: #6a96d8;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
